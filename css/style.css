@@ -47,13 +47,14 @@ header {
 main {
     width: 100%;
 }
-.introduction_section {
+.main_sections {
     display: flex;
     width: 100%;
     flex-direction: column;
     place-content: center;
     place-items: center;
 }
+
 .introduction_title {
     width: 100%;
     place-self: center;
@@ -81,20 +82,11 @@ main {
     font-size: 16px;
     margin-top: 20px;
 }
-.statistics {
-    display: flex;
-    place-content: center;
-    place-items: center;
-}
+
 .statistics img {
     width: 90%;
 }
-.ad_website {
-    display: flex;
-    flex-direction: column;
-    place-content: center;
-    place-items: center;
-}
+
 .example_img {
     width: 90%;
     place-self: center;
@@ -202,12 +194,6 @@ main {
     height: 36px;
 }
 
-.email_marketing {
-    display: flex;
-    flex-direction: column;
-    place-content: center;
-    place-items: center;
-}
 .marketing-tittle {
     font-weight: 800;
     line-height: 1.5;
@@ -219,23 +205,7 @@ main {
     font-size: 16px;
 }
 
-.digital_products {
-    display: flex;
-    flex-direction: column;
-    place-content: center;
-    place-items: center;
-}
-
-.blogging {
-    display: flex;
-    flex-direction: column;
-    place-content: center;
-    place-items: center;
-}
-
 .comments {
-    display: flex;
-    place-content: center;
     margin-top: 50px;
 }
 .comments_container {
@@ -264,11 +234,7 @@ main {
 }
 
 .support {
-    display: flex;
-    place-content: center;
-    place-items: center;
     margin-top: 50px;
-    flex-direction: column;
 }
 .support_card_container {
     width: 90%;
