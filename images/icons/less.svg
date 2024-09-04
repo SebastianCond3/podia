@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" class="accordion__icon--close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 21" width="18" height="18"><defs><symbol fill="none" viewBox="0 0 20 21" id="minus-icon" width="20" height="21">
+        <line x1="0" y1="10" x2="21" y2="10" stroke-width="2px" stroke="#1A1715" stroke-linecap="round" fill="none"></line>
+    </symbol></defs>
+                                <use xlink:href="#minus-icon" fill="none"></use>
+                            </svg>
