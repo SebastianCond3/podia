@@ -40,8 +40,11 @@ header {
     color: lightgrey;
     font-weight: 600;
 }
-.container_menu {
+.settings_container {
     display: flex;
+}
+.settings_container .menu {
+    margin: 0 6px 0 32px;
 }
 
 main {
