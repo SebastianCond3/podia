@@ -46,6 +46,10 @@ header {
 .settings_container .menu {
     margin: 0 6px 0 32px;
 }
+.settings_container .login a {
+    text-decoration: none;
+    color: lightgrey;
+}
 
 main {
     width: 100%;
@@ -80,10 +84,13 @@ main {
     border-radius: 25px;
     border: none;
     background-color: var(--violet);
+    margin-top: 20px;
+}
+.main_button a {
     color: var(--white);
     font-weight: 700;
     font-size: 16px;
-    margin-top: 20px;
+    text-decoration: none;
 }
 
 .statistics img {
@@ -118,6 +125,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-top: 50px;
 }
 .little_title {
     color: lightgrey;
@@ -187,6 +195,19 @@ main {
     grid-row: 3 / 3;
 }
 .see-more {
+    /*font-size: 16px;*/
+    /*font-weight: 700;*/
+    /*background-color: #f5efeb;*/
+    /*border: none;*/
+    /*border-radius: 20px;*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*height: 36px;*/
+    display: flex;
+    place-content: center;
+    text-decoration: none;
+    align-items: center;
+    color: #000000;
     font-size: 16px;
     font-weight: 700;
     background-color: #f5efeb;
@@ -231,6 +252,7 @@ main {
 }
 .start_session {
     margin-bottom: 30px;
+    width: 100%;
 }
 .rating {
     width: 100%;
@@ -270,6 +292,7 @@ main {
     width: 90%;
 }
 .learn_more {
+    text-decoration: none;
     border: none;
     background: none;
     font-size: 16px;
@@ -297,10 +320,6 @@ main {
     font-size: 18px;
 }
 .sign_up {
-    width: 170px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
     font-size: 18px;
     color: var(--pure_white);
     background: var(--purple);
