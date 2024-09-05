@@ -195,14 +195,6 @@ main {
     grid-row: 3 / 3;
 }
 .see-more {
-    /*font-size: 16px;*/
-    /*font-weight: 700;*/
-    /*background-color: #f5efeb;*/
-    /*border: none;*/
-    /*border-radius: 20px;*/
-    /*margin-top: 20px;*/
-    /*margin-bottom: 20px;*/
-    /*height: 36px;*/
     display: flex;
     place-content: center;
     text-decoration: none;
