@@ -96,6 +96,12 @@ main {
 .statistics img {
     width: 90%;
 }
+.statistic_phone {
+    display: inline-block;
+}
+.statistic_desktop {
+    display: none;
+}
 
 .example_img {
     width: 90%;
@@ -239,7 +245,7 @@ main {
 .client_comment {
     width: 85%;
 }
-.client_name {
+.little_text {
     font-size: 14px;
 }
 .start_session {
@@ -344,6 +350,12 @@ footer {
     font-weight: 800
 ;
 }
+.inc {
+    color: var(--letter);
+}
+.contact_link {
+    color: var(--letter);
+}
 .support_button_container {
     display: flex;
     place-content: flex-end;
@@ -366,4 +378,22 @@ footer {
     font-weight: 800;
     font-size: 30px;
     margin-right: 10px;
+}
+
+@media (min-width: 338px) {
+    .terms {
+        display: flex;
+        place-content: flex-start;
+    }
+    .contact_link {
+        margin: 0 10px 0 10px;
+    }
+}
+@media (min-width: 480px) {
+    .statistic_desktop {
+        display: inline-block;
+    }
+    .statistic_phone {
+        display: none;
+    }
 }
