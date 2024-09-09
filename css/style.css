@@ -42,13 +42,32 @@ header {
 }
 .settings_container {
     display: flex;
+    place-content: center;
+    place-items: center;
 }
 .settings_container .menu {
     margin: 0 6px 0 32px;
 }
+.settings_container .sign_up_header {
+    display: none;
+    width: 130px;
+    height: 40px;
+    margin: 0 24px;
+    background-color: var(--violet);
+}
 .settings_container .login a {
     text-decoration: none;
     color: lightgrey;
+}
+.desktop_settings_container {
+    display: flex;
+}
+.desktop_setting {
+    display: none;
+    margin: 0 16px;
+}
+.row_menu {
+    margin: 0 4px;
 }
 
 main {
@@ -341,14 +360,25 @@ footer {
     grid-template-rows: 55px 55px 55px 55px 55px 55px 55px;
     place-items: center;
 }
+.options {
+    display: inline-block;
+}
 .options button .footer_img_option {
     width: 12px;
     height: 8px;
     margin: 12px;
 }
-.footer_button {
-    font-weight: 800
-;
+.footer_link {
+    display: none;
+}
+.option_title {
+    display: flex;
+    font-weight: 800;
+    place-content: space-between;
+}
+.footer_img_option {
+    width: 16px;
+    height: 10px;
 }
 .inc {
     color: var(--letter);
@@ -439,5 +469,53 @@ footer {
     .podia_card {
         grid-row: 2 / 2;
         grid-column: 1 / 4;
+    }
+}
+@media (min-width: 900px) {
+    .introduction_title {
+        width: 90%;
+    }
+}
+@media (min-width: 1025px) {
+    .footer_link {
+        display: inline-block;
+        text-align: center;
+        color: var(--letter);
+        margin: 0 8px;
+    }
+    .footer_img_option {
+        display: none;
+    }
+    .options {
+        display: flex;
+        place-items: center;
+    }
+    .option_title {
+        display: flex;
+        place-content: space-between;
+    }
+    .comments_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .client_img {
+        grid-row: 1 / 1;
+        grid-column: 1 / 2;
+    }
+    .client_comment {
+        grid-row: 1 / 1;
+        grid-column: 2 / 3;
+    }
+}
+@media (min-width: 1064px) {
+    .desktop_setting {
+        display: inline-block;
+    }
+    .settings_container .menu, .row_container {
+        display: none;
+    }
+    .settings_container .sign_up_header {
+        display: inline-block;
     }
 }
